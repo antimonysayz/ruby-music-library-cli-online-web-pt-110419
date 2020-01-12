@@ -7,8 +7,13 @@ class MusicLibraryController
   end
 
   def call
+<<<<<<< HEAD
     input = ''
     while input != 'exit'
+=======
+    input = gets.chomp
+    if input != exit
+>>>>>>> 84cc815d6b9da056ce29fb867e7645dd72f23d18
       puts "Welcome to your music library!"
       puts "To list all of your songs, enter 'list songs'."
       puts "To list all of the artists in your library, enter 'list artists'."
@@ -17,6 +22,7 @@ class MusicLibraryController
       puts "To list all of the songs of a particular genre, enter 'list genre'."
       puts "To play a song, enter 'play song'."
       puts "To quit, type 'exit'."
+<<<<<<< HEAD
       puts "What would you like to do?"
       input = gets.chomp
 
@@ -91,4 +97,9 @@ class MusicLibraryController
   end
 
 
+=======
+    end
+  end
+
+>>>>>>> 84cc815d6b9da056ce29fb867e7645dd72f23d18
 end
